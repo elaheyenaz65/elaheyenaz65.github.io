@@ -31,12 +31,12 @@
         background-color: white;
         border-radius: 50%;
         background-repeat: no-repeat;
-        background-image: url('assets/profile.jpeg');
+        background-image: url('assets/profile.jpg');
         background-size: 118%;
         background-position: 70% 28%
       }
       .profile-photo:hover {
-        background-image: url('assets/profile-alt.png');
+        background-image: url('assets/IMG_9012.jpg');
         background-size: 100%;
       }
 
@@ -77,7 +77,11 @@
         margin-bottom: 10px;
         background-color: #0d0f11;
       }
-
+      .icon img {
+        width: 100%; /* Make sure the image fills the entire width of the container */
+        height: 100%; /* Make sure the image fills the entire height of the container */
+       object-fit: cover; /* Ensure the image covers the container without stretching */
+      }
       @media screen and (max-width: 400px) {
         .linkage .icon {
           height: 64px;
@@ -92,37 +96,35 @@
       <div id="page-home">
         <div class="profile-photo"></div>
         <div class="profile-text">
-          <h1>Your Name</h1>
+          <h1>Elaheh Hatamimajoumerd</h1>
         </div>
         <div class="page-body">
           <div class="about">
-            <strong>Lorem Ipsum</strong> is simply dummy text of the printing
-            and typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown printer
-            took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of
-            Lorem Ipsum.
+            I am a Postdoctoral Researcher at Northeastern University’s Department of Computer and Electrical Engineering,
+            specializing in artificial intelligence with a focus on computer vision and machine learning in the small data
+            domain. My research aims to develop AI-guided systems for monitoring and assessing motor function in infants,
+            enabling non-invasive tracking of motor impairments within their natural environment.
           </div>
           <div class="linkage">
-            <a href="https://www.twitch.tv/jzimz" class="link-item twitch">
-              <div class="icon"></div>
-              <div class="label">Twitch</div>
+            <a href="https://www.linkedin.com/in/elaheh-hatami-4343a455/" class="link-item linkedin">
+              <div class="icon">
+              	<img src="assets/Linkedin.png"
+                <div class="label">Linkedin</div>
             </a>
-            <a href="https://discord.gg/aV37twc" class="link-item discord">
-              <div class="icon"></div>
-              <div class="label">Discord</div>
+            <a href="https://scholar.google.com/citations?user=XcFt_MYAAAAJ&hl=en&oi=ao" class="link-item discord">
+              <div class="icon">
+              <img src="assets/gscholar.png"
+              <div class="label">Google Scholar</div>
             </a>
-            <a href="https://www.instagram.com/jzimz.tv/"
-              class="link-item instagram">
-              <div class="icon"></div>
-              <div class="label">Instagram</div>
+            <a href="https://github.com/elaheyenaz65"
+              class="link-item github">
+              <div class="icon">
+                <img src="assets/github.png"
+              <div class="label">Github</div>
             </a>
-            <a href="https://twitter.com/jzimztv" class="link-item twitter">
-              <div class="icon"></div>
+            <a href="https://twitter.com/ElahehHatami" class="link-item twitter">
+              <div class="icon">
+              	<img src="assets/twitter.png"
               <div class="label">Twitter</div>
             </a>
           </div>
